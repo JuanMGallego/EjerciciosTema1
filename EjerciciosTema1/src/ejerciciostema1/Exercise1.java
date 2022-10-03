@@ -16,7 +16,7 @@ public class Exercise1 {
 		num = sc.nextDouble(); //Scanner asks for a number to be rounded, so it opens a space to let the user introduce the number
 		System.out.println(); //Blank line for a more visual interface
 		
-		roundedNum =num + 0.5; //0.5 is added to the number entered by the user into the roundedNum variable
+		roundedNum = num + 0.5; //0.5 is added to the number entered by the user into the roundedNum variable
 		
 		System.out.println("Su número redondeado a entero es: " + (int)roundedNum); //Final printed line where the final number is casted to an integer
 		
