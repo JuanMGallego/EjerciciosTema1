@@ -18,9 +18,9 @@ public class Exercise2 {
 		System.out.println(); //Blank line for a more visual interface
 
 		auxNeed = 7 - (num % 7); //The rest is subtracted from 7 to know the distance to be multiplier of 7
-
-		need = auxNeed == -7 ? 7 : auxNeed; //In case the user introduce "0", the distance will be -7, and to prevent this, if the program detect it it will show it positively.
+		
 		need = (num % 7) == 0 ? 0 : auxNeed; //In case the user introduce a multiplier of 7, the program will show a distance of 0 instead of 7.
+		need = num == 0 ? 7 : need; //In case the user introduce "0", the distance will be -7, and to prevent this, if the program detect it it will show it positively.
 
 		System.out.println("A " + num + " hace falta sumarle " + need + " para ser múltiplo de 7"); //The result will be showed together with the number that the user has introduced.
 
