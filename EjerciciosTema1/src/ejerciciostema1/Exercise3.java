@@ -19,7 +19,7 @@ public class Exercise3 {
 		
 		System.out.print("Introduzca un número para comprobar si es múltiplo de " + num2 +": "); //Printed line to inform the user which data he/she has to introduce and where
 		num1 = sc.nextInt(); //Scanner asks for a number to be checked, so it opens a space to let the user introduce the number
-		System.out.println();//Blank line for a more visual interface
+		System.out.println(); //Blank line for a more visual interface
 		
 		auxNeed = num2 - (num1 % num2); //The rest is subtracted from num2 to know the distance to be multiplier of num2
 		
